@@ -5,7 +5,6 @@ import { shortenAddress } from '../utils/shortenAddress';
 
 import useFetch from '../hooks/useFetch';
 
-import dummyData from '../utils/dummyData';
 
 const TransactionCard = ({ addressTo, addressFrom, timestamp, message, keyword, amount }) => {
   const defaultGif = 'https://media2.giphy.com/media/RODiNw1qKHct74LACe/giphy.gif?cid=ecf05e47ze7gy3n1aqv4rs7yhh3ahwws6aq6swajlvc64yl5&rid=giphy.gif&ct=g'
